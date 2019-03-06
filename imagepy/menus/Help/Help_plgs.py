@@ -18,14 +18,14 @@ class Topic(Free):
     title = 'Topic'
     asyn = False
     def run(self, para=None):
-        #webbrowser.open('http://www.imagepy.org/document')
+        webbrowser.open('http://www.imagepy.org/document')
         pass
         
 class Home(Free):
     title = 'Home Page'
     asyn = False
     def run(self, para=None):
-        #webbrowser.open('http://imagepy.org')
+        webbrowser.open('http://imagepy.org')
         pass
 
 plgs = [Topic, About, '-', Home]
