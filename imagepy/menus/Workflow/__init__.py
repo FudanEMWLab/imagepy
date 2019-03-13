@@ -1,0 +1,1 @@
+catlog = ['Detection Workflow', '-', 'Classify Workflow']
